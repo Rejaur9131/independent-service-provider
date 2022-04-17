@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
@@ -12,9 +12,17 @@ const SignUp = () => {
   let errorElement;
 
   const [createUserWithEmailAndPassword, user, loading, error] = useCreateUserWithEmailAndPassword(auth);
+
+  useEffect(() => {
+    if (user) {
+      return navigate('/');
+    }
+  }, [user]);
+
   if (error) {
     errorElement = <p className="text-danger text-start">Error:{error.message}</p>;
   }
+
   const handleSignUp = (event) => {
     event.preventDefault();
     const name = nameRef.current.value;
