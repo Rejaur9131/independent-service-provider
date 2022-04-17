@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
@@ -12,6 +12,11 @@ const Login = () => {
   let errorElement;
 
   const [signInWithEmailAndPassword, user, loading, error] = useSignInWithEmailAndPassword(auth);
+  useEffect(() => {
+    if (user) {
+      return navigate('/');
+    }
+  }, [user]);
 
   if (error) {
     errorElement = <p className="text-danger text-start">Error:{error.message}</p>;
