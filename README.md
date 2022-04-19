@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Project Link [Niobe | A Gym Trainer And Nutrition Coach](https://independent-service-prov-36dfb.web.app).
+
+## Technologies
+
+---
+
+A list of technologies used within the project:
+
+- [React ](https://reactjs.org/): Version 18.0.0
+- [React Router](https://reactrouter.com/): Version 6
+- [React-Bootstrap](https://react-bootstrap.github.io/): Version 2.2.3
+- [Firebase](https://firebase.google.com/): Version 9.6.11
+
 ## Available Scripts
 
 In the project directory, you can run:
