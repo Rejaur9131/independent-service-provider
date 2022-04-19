@@ -3,7 +3,7 @@ import { Card, Button } from 'react-bootstrap';
 
 const Blogs = () => {
   return (
-    <div className="row g-4 p-4 bg-light text-center">
+    <div className="row bg-light text-center mx-2">
       <Card className="rounded">
         <Card.Body>
           <Card.Title>

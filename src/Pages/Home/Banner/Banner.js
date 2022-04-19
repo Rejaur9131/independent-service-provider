@@ -13,7 +13,7 @@ const Banner = () => {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img height={600} className="d-block w-100" src={banner1} alt="First slide" />
+        <img height={550} className="d-block w-100" src={banner1} alt="First slide" />
         <Carousel.Caption>
           <h1 className="display-2 text-uppercase ">
             Keep Your Body Fit &{' '}
@@ -25,7 +25,7 @@ const Banner = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img height={600} className="d-block w-100" src={banner2} alt="Second slide" />
+        <img height={550} className="d-block w-100" src={banner2} alt="Second slide" />
         <Carousel.Caption>
           <h1 className="display-2 text-uppercase">
             Exercise{' '}
@@ -36,7 +36,7 @@ const Banner = () => {
             <span className="text-danger">
               <strong>Better</strong>
             </span>
-            . Live Longer
+            . Live{' '}
             <span className="text-danger">
               <strong>Longer</strong>
             </span>

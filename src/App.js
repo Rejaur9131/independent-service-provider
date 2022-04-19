@@ -10,10 +10,11 @@ import Checkout from './Pages/Chekout/Checkout';
 import Header from './Pages/Shared/Header/Header';
 import Blogs from './Pages/Blogs/Blogs';
 import NotFound from './Pages/Shared/Notfound/NotFound';
+import Footer from './Pages/Shared/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App min-vh-100 d-flex flex-column justify-content-between">
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -32,6 +33,7 @@ function App() {
         ></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

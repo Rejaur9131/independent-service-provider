@@ -27,7 +27,7 @@ const Header = () => {
                 Services
               </Nav.Link>
               <Nav.Link href="home#experts" className="fs-5">
-                Experts
+                Testimonials
               </Nav.Link>
             </Nav>
             <Nav>
