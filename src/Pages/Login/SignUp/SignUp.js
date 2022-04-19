@@ -49,7 +49,7 @@ const SignUp = () => {
           <Form.Control type="password" ref={passwordRef} placeholder="Password" required />
         </Form.Group>
 
-        <Button variant="primary" className="w-100" type="submit">
+        <Button variant="dark" className="w-100" type="submit">
           Sign Up
         </Button>
       </Form>

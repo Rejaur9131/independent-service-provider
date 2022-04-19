@@ -19,14 +19,22 @@ const Blogs = () => {
       </Card>
       <Card className="rounded">
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+          <Card.Title>
+            <strong>Why firebase?</strong>
+          </Card.Title>
+          <Card.Text>Create application without backend server. No need extra money spent for backend server. Sync real time data in the application. Quick display data in the application. Faster than any backend web services.</Card.Text>
+          <Card.Title>
+            <strong>Other options:</strong>
+          </Card.Title>
+          <Card.Text>Auth0, Mongodb, Passport, Okta etc...</Card.Text>
         </Card.Body>
       </Card>
       <Card className="rounded">
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
+          <Card.Title>
+            <strong>Services firebase provide other than authentication:</strong>
+          </Card.Title>
+          <Card.Text>Cloud Firestore, Cloud Functions, Hosting, Cloud Storage, Google Analytics, Predictions, Cloud Messaging, etc...</Card.Text>
         </Card.Body>
       </Card>
     </div>
