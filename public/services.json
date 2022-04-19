@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "WEIGHT LOSS PROGRAM NO.1",
+    "price": "300",
+    "description": "I don't just show you how to do an exercise; I educate you in the areas of strength training, cardiovascular endurance, and proper nutrition.",
+    "features": {
+      "one": "PERSONAL TRAINING WITH A COACH - All types of cardio and strength training depending on your health and weight. ",
+      "two": "3-5 / 90 MIN WORKOUTS A WEEK - Welcome to a small group training class, with only 3-4 adults.",
+      "three": "20 ANAEROBIC AND CARDIO WORKOUTS - Customized and systemized training plan for you"
+    },
+    "img": "https://niobe.axiomthemes.com/wp-content/uploads/2016/09/img_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "WEIGHT LOSS PROGRAM NO.2",
+    "price": "450",
+    "description": "Understanding the way your body and its processes work and how to influence it is the most important step to your dream body.",
+    "features": {
+      "one": "INDIVIDUAL NUTRITION PROGRAM - A variety of group exercise classes that provide cardio & strength training. ",
+      "two": "GYM TRAINING - Join a smaller group training class, with only 3-4 adults.",
+      "three": "BASIC CONTROL OF YOUR RESULTS - Individual training program that works for you."
+    },
+    "img": "https://niobe.axiomthemes.com/wp-content/uploads/2016/09/img_2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "WEIGHT LOSS PROGRAM NO.3",
+    "price": "500",
+    "description": "A professionally developed personal training program that was created specifically for you will take you as far as you want to go.",
+    "features": {
+      "one": "REGULAR CONSULTATIONS - Interactive trainings and exciting current topics thoroughly researched.",
+      "two": "DAILY CONTROL OF YOUR RESULTS - You can try a small group training class, with only 3-4 adults.",
+      "three": "SPECIAL NUTRITION PROGRAM - Your journey into a new lifestyle starts here!."
+    },
+    "img": "https://niobe.axiomthemes.com/wp-content/uploads/2016/09/img_3.jpg"
+  }
+]

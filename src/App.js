@@ -6,11 +6,12 @@ import About from './Pages/About/About';
 import Login from './Pages/Login/Login/Login';
 import SignUp from './Pages/Login/SignUp/SignUp';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
-import Checkout from './Pages/Chekout/Checkout';
+import Checkout from './Pages/Checkout/Checkout';
 import Header from './Pages/Shared/Header/Header';
 import Blogs from './Pages/Blogs/Blogs';
 import NotFound from './Pages/Shared/Notfound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
+import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/service/:serviceId" element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
         <Route
